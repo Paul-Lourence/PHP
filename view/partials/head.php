@@ -6,7 +6,8 @@
    
     <title>Sample</title>
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugin=forms"></script>
+
 
 </head>
 <body class="h-full">
