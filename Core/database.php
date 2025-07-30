@@ -1,7 +1,8 @@
 <?php
-//require "router.php";
 
-// Connect MYSQL
+namespace Core;
+
+use PDO;
 
 class Database {
 

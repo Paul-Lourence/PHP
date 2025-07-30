@@ -1,14 +1,20 @@
-<?php require "partials/head.php" ?>
-  
-<?php require "partials/nav.php" ?>
+<?php 
 
- <?php require "partials/banner.php" ?>
- 
+namespace core;
+
+require base_path("partials/head.php") ;
+  
+require base_path("partials/nav.php") ;
+
+ require base_path("partials/banner.php") ;
+ ?>
   <main>
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
       <p>Contact Us Now!</p>
     </div>
   </main>
-</div>
 
-  <?php require "partials/footer.php" ?>
+  <?php
+require base_path("view/partials/footer.php") ;
+
+?>
