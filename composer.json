@@ -1,0 +1,29 @@
+{
+  "name": "paul/day-two",
+  "authors": [
+    {
+      "name": "Paul Lourence Calicoy",
+      "email": "paullourencecalicoy@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/collections": "^12.21",
+    "pestphp/pest": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
